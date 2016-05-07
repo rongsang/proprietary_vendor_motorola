@@ -254,6 +254,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/FIT_V16_3_audio.cfg:system/etc/diag/mdm/FIT_V16_3_audio.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg \
+    vendor/motorola/shamu/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
+    vendor/motorola/shamu/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:system/etc/sysconfig/whitelist_com.android.omadm.service.xml \
+    vendor/motorola/shamu/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
+    vendor/motorola/shamu/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
+    vendor/motorola/shamu/proprietary/priv-app/DMService/lib/arm/libdmengine.so:system/priv-app/DMService/lib/arm/libdmengine.so \
+    vendor/motorola/shamu/proprietary/priv-app/DMService/lib/arm/libdmjavaplugin.so:system/priv-app/DMService/lib/arm/libdmjavaplugin.so \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/voice-call-min-log.cfg:system/etc/diag/mdm/voice-call-min-log.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/voice-call-min-log.cfg:system/etc/diag/voice-call-min-log.cfg \
     vendor/motorola/shamu/proprietary/etc/diag/mdm/audio_voice_apr.cfg:system/etc/diag/mdm/audio_voice_apr.cfg \
@@ -311,6 +317,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/shamu/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
     vendor/motorola/shamu/proprietary/vendor/lib/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so \
+    vendor/motorola/shamu/proprietary/app/ims/lib/arm/libimscamera_jni.so:system/app/ims/lib/arm/libimscamera_jni.so \
+    vendor/motorola/shamu/proprietary/app/ims/lib/arm/libimsmedia_jni.so:system/app/ims/lib/arm/libimsmedia_jni.so \
     vendor/motorola/shamu/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/shamu/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/motorola/shamu/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
